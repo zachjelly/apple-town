@@ -22,7 +22,7 @@ color:black;
     width:780px;
     height:400px;
     background-color: red;
-    background-image:url("images/StocksThumbnail.png");
+    background-image:url("Images/StocksThumbnail.png");
 }
 #newswin{
     position:absolute;
@@ -31,7 +31,7 @@ color:black;
     width:780px;
     height:400px;
     background-color:blue;
-    background-image:url("images/NewsThumbnail.png");
+    background-image:url("Images/NewsThumbnail.png");
 }
 #hyperlinkstocks{
 position: relative;
