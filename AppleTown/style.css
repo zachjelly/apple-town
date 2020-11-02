@@ -18,28 +18,30 @@ color:black;
 background-color:coral;
 color:black;
 }
-#stockswin{
-    width:780px;
-    height:400px;
+.win {
+    width:680px;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-table;
+}
+.stockswin{
+    margin: .5%;
     background-color: red;
     background-image:url("Images/StocksThumbnail.png");
 }
-#newswin{
-    position:absolute;
-    top:139px;
-    left:789px;
-    width:780px;
-    height:400px;
+.newswin{
     background-color:blue;
+    margin: .5%;
     background-image:url("Images/NewsThumbnail.png");
 }
-#hyperlinkstocks{
-position: relative;
-top:369px;
+.news_stocks-cont {
+    padding: 3%;
 }
-#hyperlinknews{
+#hyperlink_for-wins{
     position: relative;
-    top:369px;
+    top: 310px;
 }
 #reason404{
 position: relative;
