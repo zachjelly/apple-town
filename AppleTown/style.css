@@ -43,14 +43,26 @@ color:black;
     position: relative;
     top: 310px;
 }
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 #reason404{
-position: relative;
-top:-90px;
-right:-455px;
+position: absolute;
 text-align: center;
 width:600px;
 height:200px;
 border:1px solid grey;
 background-color:red;
 overflow:scroll;
+left:-110px;
+margin-top: -110px;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
 }
